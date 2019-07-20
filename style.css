@@ -1,0 +1,60 @@
+.navbar {
+    border-radius: 0;
+}
+
+select {
+    border-bottom: 1px solid #c9c9c9;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: #444444;
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-color: white;
+    background-image: url('https://d30y9cdsu7xlg0.cloudfront.net/png/221782-200.png');
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 20px;
+    overflow: hidden;
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 300px;
+
+    option {
+        position: relative;
+    }
+}
+
+
+
+input {
+    border: 2px solid $color;
+    background-color: $color;
+    color: $bgcolor;
+
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: .5px;
+
+    outline: 0;
+
+    padding: 2px 7px;
+
+    max-width: 300px;
+
+    width: 60vw;
+
+    transition: all .08s ease-in-out;
+
+    &:hover,
+    &:focus {
+        transform: scale(1.1);
+    }
+}
+
