@@ -1,6 +1,6 @@
 <?php
 include_once 'sql.php';
-include 'auth.php';
+
 
 echo "<table>";
 $sql = "SELECT ID, IP, Country, OS, Browser, BrowserV FROM user";

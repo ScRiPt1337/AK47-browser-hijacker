@@ -36,7 +36,7 @@ if ($_GET["OS"] || $_GET["Browser"] || $_GET["BrowserV"]){
     else
     {
         
-        $sql = "INSERT INTO user(IP, Country, OS, Browser, BrowserV, Code, DATA) VALUES ('$user_ip','$Country','$OS','$Browser','$BrowserV','null','$data')";
+        $sql = "INSERT INTO user(IP, Country, OS, Browser, BrowserV, Code) VALUES ('$user_ip','$Country','$OS','$Browser','$BrowserV','null')";
         if ($conn->query($sql) === TRUE) {
             
             echo " New record created successfully";

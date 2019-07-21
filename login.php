@@ -80,7 +80,7 @@
         </div>
     </div>
     
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src='https://cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js'></script>
     <script src='https://cdn.jsdelivr.net/velocity/1.2.2/velocity.ui.min.js'></script>
 

